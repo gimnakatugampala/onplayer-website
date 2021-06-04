@@ -1,0 +1,32 @@
+
+#showcase{
+    background-image: url('../img/showcase.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+#showcase-text{
+    padding-top: 100px;
+}
+
+#features{
+    margin: 50px auto;
+}
+
+.fas{
+    font-size: 60px;
+}
+
+#steps{
+    margin: 50px auto;
+}
+
+.number{
+    font-size:80px;
+}
+
+#footer{
+    padding:10px;
+}

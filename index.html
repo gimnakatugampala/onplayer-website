@@ -4,12 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>OnPlayer | Welcome to OnPlayer</title>
 </head>
 <body>
-    <h1>Onplayer</h1>
+    <!-- The Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">OnPlayer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Showcase -->
+      <div id="showcase">
+          <div class="container text-center text-white" id="showcase-text">
+            <h1 class="display-1">Welcome to OnPlayer</h1>
+            <h6 class="display-4">OnPlayer is an end-to-end synced videoplayer</h6>
+            <p class="display-4">Watch the Video with friends at the same time</p>
+            <p class="display-4">Click to get a First-hand Experience</p>
+            <a href="https://on-player.herokuapp.com/" class="btn btn-primary  btn-lg" target="_blank">Open App</a>
+          </div>
+      </div>
+
+      <!-- Features -->
+      <div id="features">
+          <div class="container text-center">
+              <h1>Features</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fas fa-comments"></i>
+                        <h4>Chat Features</h4>
+                        <p>You can Watch the video while chating with your friends at the same time</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fas fa-video"></i>
+                        <h4>Video Player</h4>
+                        <p>A Customized and clean Video player to watch the video</p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fas fa-sync"></i>
+                        <h4>Synced Video Player</h4>
+                        <p>You and your friend's videoplayer will be synced , if you change something that will effect all of your friends videoplaye</p>
+                    </div>
+                </div>
+          </div>
+      </div>
+
+      <!-- Description about the App / Steps -->
+      <div id="steps">
+          <div class="container text-center">
+              <h1>Steps</h1>
+              <div class="row">
+                  <div class="col-md-4">
+                      <h1 class="number">1</h1>
+                      <h4>One the App</h4>
+                  </div>
+                  <div class="col-md-4">
+                      <h1 class="number">2</h1>
+                      <h4>Share the Link with Your Friends</h4>
+                  </div>
+                  <div class="col-md-4">
+                      <h1 class="number">3</h1>
+                     <h4>Watch Together</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="bg-dark text-white text-center" id="footer">
+        <div class="container">
+        <h6>OnPlayer | All Rights Reserved</h6>
+        <p>Gimna Katugamapala Production</p>
+      </div>
+      </footer>
     
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
